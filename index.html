@@ -23,7 +23,7 @@
 
                 <p>현재까지 기록된 학생들의 입퇴실 데이터입니다. 특정 데이터만을 찾으려면 우측의 검색창을 이용하십시오. 원본 소스코드는  <a
                         href="https://github.com/derekeder/csv-to-html-table">여기에서
-                        찾을 수 있습니다.</a>.</p>
+                        찾을 수 있습니다.</a></p>
 
                 <p> Here's a table of Health Clinics from the <a href="https://data.cityofchicago.org/browse?q=health%20clinic&sortBy=relevance&utf8=%E2%9C%93">City
                         of Chicago Data Portal</a>.
@@ -35,7 +35,7 @@
         <footer class="row">
             <div class="col">
                 <hr>
-                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
+                <p class="text-right">2024 Sungil High School. Web source code from <a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
                     <a href="http://derekeder.com">Derek
                         Eder</a></p>
             </div>
@@ -56,7 +56,7 @@
         }
 
         CsvToHtmlTable.init({
-            csv_path: "data/sample_history.csv?rndstr=<%= getRandomStr() %",
+            csv_path: "data/attendance_history.csv?rndstr=<%= getRandomStr() %",
             element: "table-container",
             allow_download: false,
             csv_options: {
